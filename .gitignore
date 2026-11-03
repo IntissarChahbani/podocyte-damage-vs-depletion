@@ -1,0 +1,17 @@
+# Never commit raw or processed datasets
+data/raw/
+data/processed/
+
+# Large data files
+*.rds
+*.h5ad
+
+# RStudio
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+
+# Snakemake
+.snakemake/

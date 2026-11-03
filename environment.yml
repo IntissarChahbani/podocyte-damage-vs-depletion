@@ -1,0 +1,13 @@
+
+name: podocyte-analysis
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - r-base=4.4
+  - bioconductor-biocversion=3.20
+  - snakemake=8.25
