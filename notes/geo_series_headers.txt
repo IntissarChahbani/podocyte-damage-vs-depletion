@@ -1,0 +1,48 @@
+============================================================
+GSE254957
+!Series_title = Glomerular voom-transformed RNAseq counts from the Neptune Cohort and healthy living donors [re-analysis of GSE197307]
+!Series_pubmed_id = 36442540
+!Series_pubmed_id = 41659822
+!Series_summary = Glomerular Transcriptome in the Nephrotic Syndrome study network cohort
+!Series_overall_design = Please note that GSE197307 samples were re-analyzed as described below.
+!Series_overall_design = Glomerular RNAseq profiles; Raw data (fastq) files are available upon approved ancillary study request from the NEPTUNE consortium (please see https://www.neptune-study.org/ancillary-studies; email contact: NEPTUNE-STUDY@umich.edu
+!Series_overall_design = *data processing step:
+!Series_overall_design = fastqScreen 0.11.4
+!Series_overall_design = cutadapt 1.14 -m 50 -A CTGTCTCTTATA -a CTGTCTCTTATA
+!Series_overall_design = STAR 2.5.2.a --bamRemoveDuplicatesType UniqueIdentical --twopassMode Basic --outFilterIntronMotifs RemoveNoncanonical --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif
+!Series_overall_design = htseq-count --stranded=no --order=pos --mode=union
+!Series_overall_design = genome build/assembly: GRCh 38.86
+!Series_overall_design = processed data files format and content: voom transformed data were batch corrected and trimmed to remove transcripts of no detectable abundance.
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE254nnn/GSE254957/suppl/GSE254957_NEPTUNE_GSE197307_UpdatedCountData.txt.gz
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE254nnn/GSE254957/suppl/GSE254957_updatedMatrix.txt.gz
+============================================================
+GSE197307
+!Series_title = Glomerular RNAseq counts from the Neptune Cohort and healthy living donors
+!Series_pubmed_id = 35477557
+!Series_summary = Glomerular Transcriptome in the Neptune Cohort
+!Series_overall_design = Glomerular RNAseq count
+!Series_overall_design = ***Please note that updated count matrix and voom transformed data is available in the GSE254957 records***
+!Series_overall_design = ----------------------------
+!Series_overall_design = Authors state "Raw data (fastq) files are available upon approved ancillary study request from the NEPTUNE consortium (please see https://www.neptune-study.org/ancillary-studies; email contact: NEPTUNE-STUDY@umich.edu"
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE197nnn/GSE197307/suppl/GSE197307_NEPTUNE_Glom_RNA_counts_2022.txt.gz
+!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA809711
+============================================================
+GSE219185
+!Series_title = Tubulointerstitium RNAseq Voom Transformed Transcriptome from the Neptune Cohort
+!Series_pubmed_id = 36442540
+!Series_pubmed_id = 38838223
+!Series_summary = Tubulointerstitium RNAseq Voom Transformed Transcriptome from the Neptune Cohort
+!Series_overall_design = Raw data (fastq) files are available upon approved ancillary study request from the NEPTUNE consortium (please see https://www.neptune-study.org/ancillary-studies, email contact: NEPTUNE-STUDY@umich.edu). 
+!Series_overall_design = 
+!Series_overall_design = This dataset shares samples with other NEPTUNE transcriptomic datasets including those deposited into GEO (Accession IDs: GSE182380, GSE200818, GSE133288, GSE108112, GSE108113) and does not represent an independent set of samples from the NEPTUNE consortium.
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE219nnn/GSE219185/suppl/GSE219185_TI_NEPTUNE.txt.gz
+!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA907365
+============================================================
+GSE104948
+!Series_title = Glomerular Transcriptome from European Renal cDNA Bank subjects and living donors
+!Series_pubmed_id = 29724730
+!Series_pubmed_id = 40059827
+!Series_summary = summary : Glomerular Transcriptome from European Renal cDNA Bank subjects and living donors. Samples included in this analysis have been previously analyzed using older CDF definitions and are included under previous GEO submissions - GSE47183 (chronic kidney disease samples), and GSE32591 (IgA nephropathy samples).  
+!Series_overall_design = RNA from the glomerular compartment of was extracted and processed for hybridization on Affymetrix microarrays, annotated using Human Entrez Gene ID custom CDF version 19.
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE104nnn/GSE104948/suppl/GSE104948_RAW.tar
+!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA414218
