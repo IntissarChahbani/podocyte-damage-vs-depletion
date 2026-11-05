@@ -1,13 +1,15 @@
-
-name: podocyte-analysis
-
+name: podo
 channels:
   - conda-forge
-  - bioconda
-  - nodefaults
-
 dependencies:
   - python=3.11
-  - r-base=4.4
-  - bioconductor-biocversion=3.20
-  - snakemake=8.25
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - matplotlib
+  - openpyxl
+  - jupyterlab
+  - pip
+  - pip:
+      - GEOparse
