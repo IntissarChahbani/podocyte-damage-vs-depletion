@@ -1,0 +1,13 @@
+=== GSE219185: 220 samples, 34 columns
+platform: {'GPL18573': 220}
+titles: Focal Segmental Glomerulosclerosis [Sample_1]; Focal Segmental Glomerulosclerosis [Sample_10]; Minimal Change Disease [Sample_100]; Focal Segmental Glomerulosclerosis [Sample_101]; Minimal Change Disease [Sample_102]
+- characteristics_ch1.0.tissue (1 unique): Tubulointerstitium from human kidney biopsy [220]
+- characteristics_ch1.1.disease (2 unique): Focal Segmental Glomerulosclerosis [114]; Minimal Change Disease [106]
+possible clinical columns: []
+
+=== GSE197307: 282 samples, 32 columns
+platform: {'GPL18573': 282}
+titles: Sample_1_LivingDonor; Sample_2_LivingDonor; Sample_3_LivingDonor; Sample_4_LivingDonor; Sample_5_LivingDonor
+- characteristics_ch1.0.tissue (1 unique): Glomeruli from kidney biopsy [282]
+- characteristics_ch1.1.disease (6 unique): Focal Segmental Glomerulosclerosis [93]; Minimal Change Disease [89]; Membranous Nephropathy [62]; Other Nephrotic Syndrome [29]; Healthy living transplant donor [8]; Nephrotic Syndrome, unspecified [1]
+possible clinical columns: []
