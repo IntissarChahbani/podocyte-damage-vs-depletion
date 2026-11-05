@@ -1,3 +1,6 @@
-accession,repository,study_title,species,tissue,condition,platform,notes
-GSE104948-GPL22945,GPL22945,glomeruli from biopsy,71,"LD 18; RPGN 22; FSGS 10; DN 7; FSGS&MCD 6; MCD 5; TN 3",no,no,"Site H7 only; has controls; no eGFR/proteinuria in GEO"
-GSE104948-GPL24120,GPL24120,glomeruli from biopsy,125,"SLE 32; IgA 27; MGN 21; HT 15; MCD 9; FSGS 8; DN 5; TMD 3; LD 3; TN 2",no,no,"Sites H1-H5; only 5 controls; platform=site confounded"
+accession,platform,tissue,n_samples,disease_groups,has_egfr,has_proteinuria,role,notes
+GSE254957,GPL18573,glomeruli from biopsy,,,no,no,main,"Re-analysis of GSE197307 (use this one). NEPTUNE. Counts and voom files. Clinical data only via NEPTUNE ancillary study request. n and groups to check."
+GSE104948-GPL22945,GPL22945,glomeruli from biopsy,71,"LD 18; RPGN 22; FSGS 10; DN 7; FSGS&MCD 6; MCD 5; TN 3",no,no,replication,"ERCB site H7 only. Has controls. Shares FSGS, MCD and LD with NEPTUNE. No eGFR/proteinuria in GEO. Do not combine with GSE47183 or GSE32591."
+GSE104948-GPL24120,GPL24120,glomeruli from biopsy,125,"SLE 32; IgA 27; MGN 21; HT 15; MCD 9; FSGS 8; DN 5; TMD 3; LD 3; TN 2",no,no,secondary,"ERCB sites H1-H5. Only 5 controls. Platform and site confounded: analyse within platform only."
+GSE219185,GPL18573,tubulointerstitium from biopsy,220,"FSGS 114; MCD 106",no,no,negative_control,"Not glomerular. Shares samples with other NEPTUNE sets; not independent."
+GSE197307,GPL18573,glomeruli from biopsy,282,"FSGS 93; MCD 89; MN 62; other NS 29; healthy donor 8; NS unspecified 1",no,no,superseded,"Replaced by GSE254957. Do not use both."
