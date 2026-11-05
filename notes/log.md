@@ -1,0 +1,1 @@
+“Platform = centre (H7 vs H1-H5), so no cross-platform comparisons; living donors have empty diagnosis (label is in the title).”

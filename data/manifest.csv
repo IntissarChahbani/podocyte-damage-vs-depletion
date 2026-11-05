@@ -1,1 +1,3 @@
 accession,repository,study_title,species,tissue,condition,platform,notes
+GSE104948-GPL22945,GPL22945,glomeruli from biopsy,71,"LD 18; RPGN 22; FSGS 10; DN 7; FSGS&MCD 6; MCD 5; TN 3",no,no,"Site H7 only; has controls; no eGFR/proteinuria in GEO"
+GSE104948-GPL24120,GPL24120,glomeruli from biopsy,125,"SLE 32; IgA 27; MGN 21; HT 15; MCD 9; FSGS 8; DN 5; TMD 3; LD 3; TN 2",no,no,"Sites H1-H5; only 5 controls; platform=site confounded"

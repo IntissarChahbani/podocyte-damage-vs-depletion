@@ -1,0 +1,49 @@
+DIAGNOSIS (all):
+characteristics_ch1.1.diagnosis
+Systemic Lupus Erythematosus                                   32
+IgA Nephropathy                                                27
+ANCA Associated Vasculitis                                     22
+Membranous Glomerulonephropathy                                21
+Focal Segmental Glomerular Sclerosis                           18
+Hypertensive Nephropathy                                       15
+Minimal Change Disease                                         14
+Diabetic Nephropathy                                           12
+Focal Segmental Glomerular Sclerosis/Minimal Change Disease     6
+Tumor Nephrectomy                                               5
+Thin Membrande Disease                                          3
+
+DIAGNOSIS x PLATFORM:
+platform_id                                                  GPL22945  GPL24120
+characteristics_ch1.1.diagnosis                                                
+ANCA Associated Vasculitis                                         22         0
+Diabetic Nephropathy                                                7         5
+Focal Segmental Glomerular Sclerosis                               10         8
+Focal Segmental Glomerular Sclerosis/Minimal Change Disease         6         0
+Hypertensive Nephropathy                                            0        15
+IgA Nephropathy                                                     0        27
+Membranous Glomerulonephropathy                                     0        21
+Minimal Change Disease                                              5         9
+Systemic Lupus Erythematosus                                        0        32
+Thin Membrande Disease                                              0         3
+Tumor Nephrectomy                                                   3         2
+
+CONTACT:
+contact_name: Sean,,Eddy
+contact_institute: University of Michigan
+contact_city: Ann Arbor
+contact_country: USA
+
+SUPPLEMENTARY FILE (first sample):
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2810nnn/GSM2810645/suppl/GSM2810645_H1-Glom-DN1.CEL.gz
+
+SAMPLE TITLES (every 20th):
+GSM2810645        H1-Glom-DN1
+GSM2810665        H2-Glom-HT2
+GSM2810685      H4-Glom-IgA15
+GSM2810705       H4-Glom-IgA9
+GSM2810725     H5-Glom-MGN431
+GSM2810745     H5-Glom-SLE409
+GSM2810765     H5-Glom-SLE463
+GSM2810785    H7-Glom-FSGS917
+GSM2810805     H7-Glom-LD_988
+GSM2810825    H7-Glom-RPGN925
